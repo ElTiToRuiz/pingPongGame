@@ -34,9 +34,15 @@ This repository contains a simple Ping Pong game implemented using Python and th
    ```sh
    git clone https://github.com/SrRuizIgor16/pingPongGame.git
    cd ping-pong-game
-2. Install the required libraries:
+2. Create your own environment and activate it:
+   ```sh
+   python -m venv myenv
+   source myenv/bin/activate
+   ```
+3. Install the required libraries:
     ```sh
-   pip install pygame
+   pip install requirements.txt
+   ```
 
 ## USAGE
 1. Run the gui.py script to start the game setup GUI:
